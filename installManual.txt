@@ -18,5 +18,9 @@ then you enter "node -v" command in cmd and will see version of node.js
 	2. mongoose
 	3. restify
 	4. nodemon
+	
+6. Install botframework emulator: https://github.com/Microsoft/BotFramework-Emulator/releases/tag/v3.5.34
 
-6. Run MongoDB: Go to cd *path to .\MongoDB\bin*. Next: mongod --dbpath "data"
+7. Run MongoDB: Go to cd *path to .\MongoDB\bin*. Next: mongod --dbpath "data"
+
+8. Run server: *path to folder which contains our .js file* --> nodemon name.js
