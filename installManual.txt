@@ -1,0 +1,22 @@
+1. Install node.js: https://nodejs.org/en/. If node.js has already correctly installed ,
+then you enter "node -v" command in cmd and will see version of node.js
+
+2. Check npm: npm -v in cmd. IF install -->  You can see npm version. ELSE --> You have to install npm.
+
+3. Install NPM: npm install npm@latest -g.
+
+4. Install MongoDB: 
+	1. Download: https://www.mongodb.com/download-center?_ga=2.25766333.1883541618.1513253770-1131259114.1512246990#community
+	2. Open cmd as Administrator
+	3. msiexec.exe /q /i mongodb-win32-x86_64-enterprise-windows-64-3.6.0-signed.msi ^
+            INSTALLLOCATION="Your path to folder, which consists .msi file" ^
+            ADDLOCAL="all"
+	4. Create in \MongoDB\bin new folder "data"
+
+5. Install packages: npm install name_package
+	1. botbuilder
+	2. mongoose
+	3. restify
+	4. nodemon
+
+6. Run MongoDB: Go to cd *path to .\MongoDB\bin*. Next: mongod --dbpath "data"
