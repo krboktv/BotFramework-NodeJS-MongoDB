@@ -14,6 +14,10 @@ var personSchema = new Schema(
             type: Number,
             default: 0
         },
+        sex: {
+            type: String,
+            default: 'unicorn'
+        }
     },
     {versionKey: false}
 );
